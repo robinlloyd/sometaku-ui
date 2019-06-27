@@ -1,0 +1,32 @@
+{
+  "name": "@sometaku/ui",
+  "version": "0.0.0",
+  "description": "UI Library",
+  "main": "demo/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --host 0.0.0.0 --content-base demo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/robinlloyd/sometaku-ui.git"
+  },
+  "author": "Robin Lloyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinlloyd/sometaku-ui/issues"
+  },
+  "homepage": "https://github.com/robinlloyd/sometaku-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
