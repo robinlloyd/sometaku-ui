@@ -1,8 +1,8 @@
 {
   "name": "@sometaku/ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI Library",
-  "main": "demo/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --host 0.0.0.0 --content-base demo/"
   },
